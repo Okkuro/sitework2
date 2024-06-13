@@ -1,0 +1,178 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Rubik", sans-serif;
+}
+
+html{
+    font-size: 1em;
+}
+
+body{
+    background-color: lavender;
+}
+
+header{
+    background-color: antiquewhite;
+    text-align: center;
+    padding: 20px;
+}
+
+h1{
+    text-transform: uppercase;
+}
+
+footer{
+    background-color: antiquewhite;
+    padding: 19px 50px;
+    
+}
+
+.about{
+    text-align: center;
+    padding: 5px 50px;
+}
+
+.article{
+    background-color: bisque;
+    padding: 0px 40px;
+}
+
+.text{
+    text-align:justify;
+    padding: 10px 100px;
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+}
+
+h2{
+    text-align: center;
+    font-size: 2rem;
+}
+
+.main{
+    background-color: bisque;
+    padding: 10px 40px;
+}
+
+a{
+    all: unset;
+    cursor: pointer;
+}
+
+.link{
+    border-radius: 1px;
+}
+
+nav{
+    padding: 10px 50px;
+}
+
+nav ul{
+    list-style: none;
+}
+
+nav li{
+    display: inline-block;
+    margin: 0px 10px;
+}
+
+.content{
+    padding: 20px 50px;
+}
+
+.article a{
+    border: 2px;
+}
+
+code{
+    border-radius: 2px;
+    padding: 1px 4px;
+    background-color:  #f1f1f1;
+    color: var(--color-emphasized, #000);
+    border: 1px solid #545557;
+}
+
+.version {
+    display:inline-block ;
+    padding: 10px 170px;
+}
+
+main nav li{
+    display: grid;
+}
+
+.soder{
+    background-color: rgb(216, 198, 177);
+    width: 250px;
+    margin-top: 20px;
+    margin-left: 50px;
+    border: 2px solid;
+    border-radius: 2px;
+    padding: 10px;
+}
+
+.content p{
+    margin-right: 900px;
+}
+
+.content li{
+    padding: 15px;
+}
+
+.content1 h3{
+    padding-top: 20 px;
+    padding-left: 60px;
+}
+
+.content1 p{
+    padding: 15px 50px;
+    
+}
+
+.content1 img{
+    padding-left: 50px;
+}
+
+.content1 ul{
+    list-style:circle;
+}
+
+.content1 li{
+    margin-left: 90px;
+    padding: 5px 0px;
+    list-style:disc;
+}
+
+.content2{
+    padding: 15px 50px;
+}
+
+.content2 p{
+    padding: 10px;
+}
+
+.content2 li{
+    margin-left: 40px;
+    padding: 5px 0px;
+    list-style:disc;
+}
+
+.content3 p{
+    padding: 10px 50px;
+}
+
+
+.content4 dl{
+    padding: 25px;
+}
+
+.content4 dt{
+    font-weight: bold;
+}
+
+.content4 dd{
+    padding-left: 20px;
+    margin-right: 800px;
+}
